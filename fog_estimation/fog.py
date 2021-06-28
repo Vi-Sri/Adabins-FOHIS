@@ -6,14 +6,26 @@ from parameter import const
 np.set_printoptions(threshold=np.inf)
 np.errstate(invalid='ignore', divide='ignore')
 
+
+
+
+
 # load rgb and depth image
 img = '../negley/negley_1_undistort/980.png'
 Ip = cv2.imread(img)
 # name = str(img.split('.')[0].split('/')[1])
 
+
+
 depth = cv2.imread('../negley/depth_adabins/980.png')[:, :, 0].astype(np.float64)
 depth[depth==0] = 1
 depth *= 3
+
+
+
+
+
+
 
 I = np.empty_like(Ip)
 result = np.empty_like(Ip)
