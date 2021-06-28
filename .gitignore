@@ -1,0 +1,15 @@
+*.pyc
+__pycache__/
+.env
+.idea/
+predictions_nyu/
+predictions_kitti/
+wandb/
+checkpoints/
+pretrained/
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+
