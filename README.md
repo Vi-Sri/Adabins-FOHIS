@@ -1,3 +1,3 @@
 # Adabins-FOHIS
 
-Generating realistic fog using monocular depth estimation method with FOHIS algorithm
+Generating photo realistic fog using monocular depth maps with FOHIS algorithm
